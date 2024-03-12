@@ -38,6 +38,9 @@
     margin-bottom: 20px;
 }
 
+.h3{
+    font-family: Outfit;
+}
 
 body{
     background-color: var(--Eggshell);
@@ -61,26 +64,85 @@ body{
 .container-project>p{
     font-weight: 400px;
     letter-spacing:1px;
-    
+    margin-top: 30px;
     
 }
 
+.title1{
+    padding-left: 20px;
+}
+
+
+.paragrafo{
+    padding-left:15px ;
+}
+
+.instructions{
+
+    padding-left: 13px;
+    color: var(--marron);
+     margin-top: 16px;
+    
+}
+
+.lista3{
+    margin-left: 25px;
+     s
+}
 img{
-  width: 100%;
+  width: 97%;
+  height: 85%;
   border-radius: 15px;
-  margin-left: 4px;
+  margin-left: 18px;
   align-items: center;
   justify-content: center;
 
 
 }
 
-.firstlist_style{
-    background-color: var(--RoseWhite);
-    padding: 20px;
-    border: 15px;
+.igredientes{
+margin-top: 5px;
+margin-left: 15px;
+font-family: Otifit;
+color: var(--marron);
 }
 
+.lista3>li{
+    line-height: 28px;
+    font-family: Outfit;
+}
+
+.nutrition{
+    margin-top: 5px;
+margin-left: 15px;
+font-family: Otifit;
+color: var(--marron);
+font-size: 25px;
+margin-top: 20px;
+
+}
+
+.paragrafo{
+    line-height: 20px;
+}
+
+.lista2{
+    margin-top: 5px;
+
+    margin-left: 25px;
+}
+
+
+.first-list_style{
+    background-color: var(--RoseWhite);
+      padding: 20px;
+    border: 15px;
+    margin-top: 5px;
+}
+
+.lista1{
+    margin: 10px;
+}
 .firstlist_style>h3{
     background-color: var(--DarkRaspberry);
     font-family: Outfit;
@@ -99,6 +161,7 @@ img{
 
 ul>li{
     margin-bottom: 15px;
+
 }
 
 li::marker{
@@ -107,11 +170,20 @@ li::marker{
 
 }
 
-table{
-    width: 100%;
+table,tr,td{
+    border-bottom: 1px solid var(--marron);
     border-collapse: collapse;
+    padding: 15px;
+    margin-left: 15px;
+    width: 40%;
+    
+}
+.nome{
+line-height: 80px;
 
 }
+
+
 .linha{
     border-style: none none solid none
 }
