@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: youngSerif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face{
+    font-family: Outfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+:root{
+    --marron: hsl(14, 45%, 36%);
+--DarkRaspberry: hsl(332, 51%, 32%);
+--white: hsl(0, 0%, 100%);
+--RoseWhite: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--LightGrey: hsl(30, 18%, 87%);
+--WengeBrown: hsl(30, 10%, 34%);
+--DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+    
+    
+
+
+.container-project>h1{
+    font-family: youngSerif;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+body{
+    background-color: var(--Eggshell);
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.container-project{
+    background-color: var(--white);
+    width: 60vw;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    padding: 30px;
+    border-radius: 20px;
+    
+
+.container-project>p{
+    font-weight: 400px;
+    letter-spacing:1px;
+    
+    
+}
+
+img{
+  width: 100%;
+  border-radius: 15px;
+  margin-left: 4px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.firstlist_style{
+    background-color: var(--RoseWhite);
+    padding: 20px;
+    border: 15px;
+}
+
+.firstlist_style>h3{
+    background-color: var(--DarkRaspberry);
+    font-family: Outfit;
+    margin-bottom: 15px;
+
+
+}
+
+
+.firstlist_style>ul{
+    margin-left: 16px;
+    color: var(--WengeBrown);
+    letter-spacing: 1px;
+    
+}
+
+ul>li{
+    margin-bottom: 15px;
+}
+
+li::marker{
+    color: var(--DarkRaspberry);
+    
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.linha{
+    border-style: none none solid none
+}
+.corpo{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left: 30px;
+
+}
+section{
+    text-align: left;
+}
